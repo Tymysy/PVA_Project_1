@@ -310,6 +310,7 @@ h1:hover {
 .gradient {
     text-align: center;
     background: linear-gradient(45deg, #CBC3E3, #fff );
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 5rem;  
