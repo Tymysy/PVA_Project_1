@@ -340,6 +340,13 @@ section .m-heading {
     text-align: center;
 }
 
+section .m-heading:hover {
+    text-shadow:
+    0 0 20px rgba(255, 105, 180, 0.6),
+    0 0 30px rgba(255, 105, 180, 0.4),
+    0 0 40px rgba(255, 255, 255, 0.3);;
+}
+
 section .contItems {
     display: flex;
     justify-content: space-between;
@@ -357,11 +364,11 @@ section .contItems {
 .btnmoreP {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     position: absolute;
-    left: 105vh;
+    left: 100vh;
     align-items: center;
-    padding: 10px 20px;
+    padding: 12px 50px;
     width: 60px;
     height: 15px;
     border: none;
