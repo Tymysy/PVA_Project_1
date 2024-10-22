@@ -7,12 +7,16 @@
     font-family: "Space", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200vh;
-    background: url('111.jpg') no-repeat center center;
+    background: url('./image/111.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('111.jpg') no-repeat center center;
+    background: url('./image/111.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
@@ -314,7 +318,7 @@ h1:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 5rem;  
-    margin-bottom: 50vh;
+    margin-bottom: 40vh;
     -webkit-text-stroke: 0.8px black;
     font-weight: bold;
   }
@@ -341,18 +345,20 @@ section .m-heading {
 }
 
 section .m-heading:hover {
+    cursor: default;
     text-shadow:
     0 0 20px rgba(255, 105, 180, 0.6),
     0 0 30px rgba(255, 105, 180, 0.4),
     0 0 40px rgba(255, 255, 255, 0.3);;
+    transition: .5s;
 }
 
 section .contItems {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150vh;
-    height: 60vh;
+    width: 180vh;
+    height: 70vh;
     padding: 0px 50px 0px 50px;
     background: linear-gradient(135deg, #fff 0%, #BFC1C2 50%, #D8D8D8 100%);
     border-radius: 10px;
@@ -366,9 +372,9 @@ section .contItems {
     justify-content: center;
     margin-top: 20px;
     position: absolute;
-    left: 100vh;
+    left: 98vh;
     align-items: center;
-    padding: 12px 50px;
+    padding: 14px 60px;
     width: 60px;
     height: 15px;
     border: none;
@@ -386,4 +392,56 @@ section .contItems {
     color: #fff;
     transition: .5s;
     cursor: pointer;
+}
+
+section img {
+    width: 54vh;
+    height: 44vh;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
+                0 0 30px rgba(255, 105, 180, 0.4),
+                0 0 40px rgba(255, 255, 255, 0.3);
+}
+
+section img:hover {
+    box-shadow: 0 0 20px rgba(21, 0, 138, 0.6),
+                0 0 30px rgba(23, 0, 126, 0.4),
+                0 0 40px rgba(83, 76, 126, 0.3);
+    transition: 0.8s;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #fff;
+    -webkit-text-stroke: 0.5px #9400d3;
+}
+
+section p:hover {
+    -webkit-text-stroke: 0.75px rgba(21, 0, 138, 0.6);
+    cursor: default;
+    transition: 0.8s;
+}
+
+.btndownpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CBC3E3;
+    padding: 8px 20px;
+    margin-bottom: 8vh;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.btndownpage:hover {
+    background: #fff;
+    color: #CBC3E3;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
+                0 0 30px rgba(255, 105, 180, 0.4),
+                0 0 40px rgba(255, 255, 255, 0.3);
+    transition: .5s;
 }

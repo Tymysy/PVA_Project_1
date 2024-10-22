@@ -24,24 +24,25 @@
         <p class="gradient">
             Car sales company 
         </p>
+        <button class="btndownpage", id="scrollbtn">Down</button>
         <section class="section-1">
             <div class="m-heading">
                 <h2>Our best products</h2>
             </div>
             <div class="contItems">
                 <div class="sectionitem">
-                    <img>
-                    <p>Mercedes </p>
+                    <img src="./image/cls63.jpg">
+                    <p>Mercedes CLS63</p>
                 </div>
 
                 <div class="sectionitem">
-                    <img>
-                    <p>Mercedes</p>
+                    <img src="./image/e1.jpg">
+                    <p>Mercedes E-Class</p>
                 </div>
 
                 <div class="sectionitem">
-                    <img>
-                    <p>Mercedes</p>
+                    <img src="./image/g1.jpg">
+                    <p>Mercedes G-Class</p>
                 </div>
             </div>
 
@@ -49,6 +50,15 @@
 
         </section>
     </div>
+
+    <script>
+    document.getElementById("scrollbtn").addEventListener("click", function() {
+        window.scrollBy({
+            top: window.innerHeight,
+            behavior: 'smooth'
+    });
+  });
+    </script>
 
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
