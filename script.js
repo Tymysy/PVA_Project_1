@@ -23,3 +23,7 @@ iconClose.addEventListener('click', ()=> {
 function openPage() {
     window.location.href = "login.html";
 }
+
+function openAbout() {
+    window.location.href = "aboutus.html"
+}
