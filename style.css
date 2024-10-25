@@ -363,11 +363,12 @@ section .m-heading:hover {
 }
 
 section .contItems {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 180vh;
-    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh;
+    max-width: 180vh;
+    max-height: 75vh;
+    margin: 0 auto;
     padding: 0px 50px 0px 50px;
     background: linear-gradient(135deg, #fff 0%, #BFC1C2 50%, #D8D8D8 100%);
     border-radius: 10px;
@@ -403,9 +404,14 @@ section .contItems {
     cursor: pointer;
 }
 
+.sectionitem {
+    display: flex;
+    
+}
+
 section img {
-    width: 54vh;
-    height: 44vh;
+    width: calc(50%-5vh);
+    height: auto;
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
                 0 0 30px rgba(255, 105, 180, 0.4),
                 0 0 40px rgba(255, 255, 255, 0.3);
