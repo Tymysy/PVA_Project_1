@@ -327,7 +327,7 @@ h1:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 5rem;  
-    margin-bottom: 30vh;
+    margin-bottom: 26vh;
     -webkit-text-stroke: 0.8px black;
     font-weight: bold;
   }
@@ -349,7 +349,7 @@ section .m-heading {
     font-size: 2.5rem;
     outline: none;
     color: aliceblue;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     text-align: center;
 }
 
@@ -363,13 +363,14 @@ section .m-heading:hover {
 }
 
 section .contItems {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5vh;
+    padding: 15px 0px 15px 0px;
     max-width: 180vh;
     max-height: 75vh;
-    margin: 0 auto;
-    padding: 0px 50px 0px 50px;
+    margin: auto;
     background: linear-gradient(135deg, #fff 0%, #BFC1C2 50%, #D8D8D8 100%);
     border-radius: 10px;
     box-shadow: 0 0 60px rgba(255, 105, 180, 0.6),
@@ -380,13 +381,13 @@ section .contItems {
 .btnmoreP {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5px;
     position: absolute;
     left: 98vh;
     align-items: center;
     padding: 14px 60px;
     width: 60px;
-    height: 15px;
+    height: 10px;
     border: none;
     border-radius: 5px;
     background: #D8D8D8;
@@ -406,12 +407,14 @@ section .contItems {
 
 .sectionitem {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
 }
 
 section img {
-    width: calc(50%-5vh);
-    height: auto;
+    width: 70vh;
+    height: 30vh;
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
                 0 0 30px rgba(255, 105, 180, 0.4),
                 0 0 40px rgba(255, 255, 255, 0.3);
@@ -425,17 +428,11 @@ section img:hover {
 }
 
 section p {
-    display: flex;
-    justify-content: center;
-    font-size: 2.5rem;
-    color: #fff;
-    -webkit-text-stroke: 0.5px #9400d3;
-}
-
-section p:hover {
-    -webkit-text-stroke: 0.75px rgba(21, 0, 138, 0.6);
-    cursor: default;
-    transition: 0.8s;
+    margin-top: 5px;
+    font-size: 1em;
+    font-variant: small-caps;
+    color: black;
+    text-align: center;
 }
 
 .btndownpage {
@@ -460,6 +457,17 @@ section p:hover {
                 0 0 40px rgba(255, 255, 255, 0.3);
     transition: .5s;
 }
+
+.Bottompart {
+    margin-top: 7vh;
+    display: flex;
+    gap: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 230vh;
+    background-color: darkslategray;
+}
+
 
 .containerabout {
     display: flex;
