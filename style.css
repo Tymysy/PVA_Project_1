@@ -23,9 +23,9 @@ body {
 
 .aboutus {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     height: 200vh;
     background: #CBC3E3;
 }
@@ -327,6 +327,7 @@ h1:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 5rem;  
+    font-variant: small-caps;
     margin-bottom: 38vh;
     -webkit-text-stroke: 0.8px black;
     font-weight: bold;
@@ -368,6 +369,7 @@ section .contItems {
     justify-content: space-between;
     gap: 5vh;
     padding: 15px 0px 15px 0px;
+    overflow: hidden;
     max-width: 180vh;
     max-height: 75vh;
     margin: auto;
@@ -415,6 +417,7 @@ section .contItems {
 section img {
     width: 70vh;
     height: 30vh;
+    transform-origin: center;
     box-shadow: 0 0 20px rgba(255, 105, 180, 0.6),
                 0 0 30px rgba(255, 105, 180, 0.4),
                 0 0 40px rgba(255, 255, 255, 0.3);
@@ -424,7 +427,8 @@ section img:hover {
     box-shadow: 0 0 20px rgba(21, 0, 138, 0.6),
                 0 0 30px rgba(23, 0, 126, 0.4),
                 0 0 40px rgba(83, 76, 126, 0.3);
-    transition: 0.8s;
+    transform: scale(1.1);
+    transition: 0.8s ease;
 }
 
 section p {
@@ -462,16 +466,76 @@ section p:hover {
     transition: .5s;
 }
 
-.containerabout {
-    display: flex;
-    justify-content: center;    
-    align-items: center;          
-    height: 200vh;            
+.about1p .h2a1 {
+    margin-top: -85vh;
+    margin-bottom: 15vh;
+    font-variant: small-caps;
+    font-size: 3em;
+    color: #fff;
 }
 
-.containerabout h2 {
-    margin-top: -170vh;
-    color: aliceblue;
-    font-size: 3em;
-    font-variant:small-caps;
+.sectionabout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vh;
+    margin-bottom: 10vh;
+}
+
+.iconbox {
+    width: 50vh;
+    text-align: center;
+}
+
+.iconbox i {
+    font-size: 5em;
+    margin-bottom: 1vh;
+    color: #fff;
+}
+
+.iconbox i:hover {
+    color: black;
+    transition: .8s;
+}
+
+.iconbox p {
+    font-size: 1em;
+    color: black;
+    font-variant: normal;
+    text-align:start;
+    margin: 0;
+}
+
+.iconbox p:hover {
+    color: #fff;
+    transition: .5s;
+}
+
+.statistic h2 {
+    font-size: 4em;
+    font-variant: small-caps;
+    color: #fff;
+    margin-bottom: 3vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+.tdtext {
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-weight: 700;
 }
