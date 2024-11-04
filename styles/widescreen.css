@@ -1,3 +1,29 @@
-@media (max-width: 480px) {
+@media (min-width: 1200px) and (max-width:1780px) {
+    section .contItems {
+        gap: 1vh !important;
+        max-width: 140vh !important;
+        max-height: 75vh !important;
+        padding: 15px 0px 15px 0px !important;
+    } 
     
+    .btnmoreP {
+        width: 30px !important;
+        height: 15px !important;
+    }
+    
+    section img {
+        width: 60vh !important;
+    }
+
+    .sectionabout {
+        gap: 8vh !important;
+    }
+
+    .iconbox p {
+        font-size: 1.2em !important;
+    }
+
+    .iconbox {
+        width: 40vh !important;
+    }
 }
