@@ -518,6 +518,21 @@ section p:hover {
     margin-bottom: 3vh;
 }
 
+.cardofp {
+    display: none;
+}
+.p1table {
+    display: none;
+}
+
+.p2table {
+    display: none;
+}
+
+.p3table {
+    display: none;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
