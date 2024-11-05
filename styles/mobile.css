@@ -6,6 +6,10 @@
         height: 280vh !important; 
     }
 
+    .logo {
+        margin: 0 !important;
+    }
+
     .loginbody {
         height: 100vh !important;
     }
