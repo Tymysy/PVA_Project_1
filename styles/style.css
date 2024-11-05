@@ -50,12 +50,12 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-
 }
 
 .logo {
     font-size: 2em;
     color: #fff;
+    margin-top: 10px;
     margin-left: 40px;
     user-select: none;
 }
