@@ -3,7 +3,7 @@
         max-width: 480px !important;
         margin: 0 auto !important;
         overflow-x: hidden !important;
-        height: 250vh !important; 
+        height: 280vh !important; 
     }
 
     .loginbody {
@@ -11,12 +11,12 @@
     }
 
     h1 {
-        margin-top: -60vh !important;
+        margin-top: -80vh !important;
     }
 
     .gradient {
         font-size: 4rem !important;
-        margin-bottom: 32vh !important;
+        margin-bottom: 35vh !important;
     }
 
     section .m-heading {
