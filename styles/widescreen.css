@@ -5,6 +5,14 @@
         max-height: 75vh !important;
         padding: 15px 0px 15px 0px !important;
     } 
+
+    .gradient {
+        margin-bottom: 25vh !important;
+    }
+
+    .body {
+        height: 200vh !important;
+    }
     
     .btnmoreP {
         width: 30px !important;
